@@ -1,0 +1,32 @@
+body {
+  background-color: beige;
+  color: blueviolet;
+}
+
+
+
+
+        int[][] arr = {{3, 1, 5, 9, 2, 4, 7}, {2, 4, 3, 5, 0, 8, 1}, {9, 7, 6, 1, 5, 2, 3}, {8, 2, 1, 7, 5, 6, 4}, {1, 7, 5, 9, 3, 6, 2}, {5, 2, 7, 4, 3, 1, 6}, {6, 9, 1, 2, 4, 3, 8}, {2, 1, 0, 8, 3, 4, 5}, {2, 9, 8, 0, 5, 3, 1}, {8, 0, 1, 7, 9, 3, 2}};
+  
+
+        for(int i = 0; i < 10; i++) {
+
+            int k = Character.getNumericValue(arri[i]);
+            for (int z = 0; z < 7; z++) {
+                if (k == arr[i][z]) {
+                    codeOut.add(z);
+                }
+            }
+        }
+
+
+        for (int i = 0; i < 10; i++){
+            System.out.print(codeOut.get(i));
+
+        }
+        System.out.println();
+
+    }
+}
+
+
