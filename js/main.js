@@ -1,7 +1,3 @@
-const code = prompt("Enter the code");
-console.log(code);
-
-
 const arr = [
     [3, 1, 5, 9, 2, 4, 7],
     [2, 4, 3, 5, 0, 8, 1],
@@ -16,36 +12,27 @@ const arr = [
 ];
 
 const result = [];
-const check = () => {
-    if (code.length > 10) {
-        console.log("Wrong code length!");
-        return;
-    }
-    for (let i = 0; i < code.length; i++){
-        if ((code[i] < 0)|| (code[i] > 10) || (code[i] === NaN)){
-            console.log("Wrong code length!");
-            return;
-              
-        }
-    }
 
-}
-const secure = () => {
-    
+
+
+const inputBtn = document.querySelector('#inputBtn');
+const codeValue = document.querySelector('#codeValue');
+let code;
+    inputBtn.addEventListener('click', () => {
+        code = codeValue.value;
+        event.preventDefault();
+       
         for (let i = 0; i < code.length; i++){
             for (let j = 0; j < 7; j++){
-                if (code[i] == arr[i][j]) {
-                    result.push(j);
-                }
-               
+            if( code[i] == arr[i][j]){
+                result.push(j);
+
             }
         }
         
-alert(result);
-
-}
-
-secure();
-
-
-
+    }
+    document.querySelector('.out').innerHTML = result;
+    
+})
+  
+ 
