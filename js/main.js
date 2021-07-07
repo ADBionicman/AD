@@ -21,14 +21,20 @@ let code;
     inputBtn.addEventListener('click', () => {
         code = codeValue.value;
         event.preventDefault();
-       
-        for (let i = 0; i < code.length; i++){
+        if (code.length != 10){
+            result.push("Wrong code length! Check it and try again.");
+            
+        }
+        else {
+        for (let i = 0; i < 10; i++){
             for (let j = 0; j < 7; j++){
             if( code[i] == arr[i][j]){
                 result.push(j);
 
             }
+            
         }
+    }
         
     }
     document.querySelector('.out').innerHTML = result;
