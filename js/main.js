@@ -26,14 +26,19 @@ let code;
             
         }
         else {
+            let res = 'x';
         for (let i = 0; i < 10; i++){
+            result.push(res);
             for (let j = 0; j < 7; j++){
             if( code[i] == arr[i][j]){
-                result.push(j);
+                result[i] = j;
 
             }
-            
+           
+           
         }
+       
+            
     }
         
     }
