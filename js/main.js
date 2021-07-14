@@ -26,7 +26,7 @@ let code;
             
         }
         else {
-            let res = 'x';
+            let res = 'X';
         for (let i = 0; i < 10; i++){
             result.push(res);
             for (let j = 0; j < 7; j++){

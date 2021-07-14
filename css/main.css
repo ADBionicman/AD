@@ -1,37 +1,29 @@
 body {
-    width: 100%;
+  width: 100%;
   background-color: beige;
   color: blueviolet;
 }
-p{  
-    font-size: 75px;
-    text-align: center;
-    font-size: 100px;
-    margin-top: 100px;
-   
-    
-
+p {
+  font-size: 75px;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 100px;
 }
-form{
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    
-    
+form {
+  font-size: 50px;
+  text-align: center;
+  color: blueviolet;
 }
-.out{
-    text-align: center;
-    font-size: 40px;
-    color: crimson;
-    margin-top: 100px;
-    
-
+.out {
+  text-align: center;
+  font-size: 40px;
+  color: crimson;
+  margin-top: 100px;
 }
 
-
-
-
-
-
+.note {
+  text-align: center;
+  font-size: 40px;
+  color: seagreen;
+  margin-top: 100px;
+}
