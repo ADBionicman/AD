@@ -1,7 +1,10 @@
 body {
+  font-weight: 800;
   width: 100%;
   background-color: beige;
-  color: blueviolet;
+  color: blue;
+  background-image: url("https://lock.com.ua/upload/iblock/2e4/komplekt-klyuchiv-abloy-protec2-5key-card-.jpeg");
+  background-image: repeating-linear-gradient();
 }
 p {
   font-size: 75px;
@@ -9,15 +12,25 @@ p {
   font-size: 100px;
   margin-top: 100px;
 }
+
+.direct {
+  background-color: yellowgreen;
+  text-align: center;
+  font-size: 40px;
+
+  color: blue;
+}
 form {
   font-size: 50px;
   text-align: center;
   color: blueviolet;
 }
 .out {
+  background-color: yellowgreen;
   text-align: center;
   font-size: 40px;
-  color: crimson;
+
+  color: brown;
   margin-top: 100px;
 }
 
